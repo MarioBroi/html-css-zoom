@@ -61,24 +61,28 @@
 }
 
 .users {
-  position: relative;
+  width: calc(100 / 6);
 }
 
 .partecipant {
   color: var(--zoom-lighter);
-  width: 100%
+  width: 100%;
+  position: relative;
 }
 
 .img-size {
   width: 100%;
   padding: 0.2rem;
 }
+.position-name {
+  position: absolute;
+  left: 3%;
+  bottom: 10%;
+  display: inline-block;
+}
 
 .user-name {
-  /* position: absolute; */
-  left: 0;
-  bottom: 2%;
-  padding: 0.5rem;
+  padding: 0.1rem;
   background-color: var(--zoom-secondary);
   font-size: small;
 }
