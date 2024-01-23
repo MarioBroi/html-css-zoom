@@ -116,4 +116,21 @@
   padding: 0.7rem;
 }
 
+.footer-middle {
+  color: var(--zoom-lighter);
+  text-align: center;
+  align-items: center;
+}
+
+.share {
+  color: var(--zoom-share);
+}
+
+.btn-bottom {
+  background-color: var(--zoom-secondary);
+  color: var(--zoom-danger);
+  padding: 0.5rem;
+  border: 1px solid var(--zoom-dark);
+}
+
 /* #endregion Footer */
