@@ -8,10 +8,35 @@
 
 :root {
   --zoom-primary: rgba(34, 34, 34, 1);
+  --zoom-secondary: rgba(74, 74, 74, 1);
   --zoom-dark: rgba(0, 0, 0, 1);
   --zoom-lighter: rgba(255, 255, 255, 1);
   --zoom-danger: rgba(230, 18, 27, 1);
   --zoom-share: rgba(75, 200, 0, 1);
 }
 
+.d-flex {
+  display: flex;
+}
+
+.content-end {
+  justify-content: flex-end;
+}
+
 /* #endregion Common */
+
+/* #region Header */
+
+.app-header {
+  background-color: var(--zoom-dark);
+}
+
+.badge {
+  color: var(--zoom-lighter);
+  background-color: var(--zoom-secondary);
+  border-radius: 0.25rem;
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+
+/* #endregion Header */
