@@ -60,7 +60,7 @@
 
 .app-main {
   background-color: var(--zoom-dark);
-  height: 85vh;
+  height: 100%;
   width: 100vw;
 }
 
