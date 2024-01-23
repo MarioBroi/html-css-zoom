@@ -99,4 +99,19 @@
   background-color: var(--zoom-primary);
 }
 
+.footer-left {
+  color: var(--zoom-lighter);
+  text-align: center;
+  padding: 0.4rem;
+}
+
+.chevron-up {
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
 /* #endregion Footer */
