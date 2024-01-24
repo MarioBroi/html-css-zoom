@@ -32,10 +32,11 @@
 
 /* #region Header */
 
-.app-header {
+header {
+  height: 50px;
+  text-align: end;
+  line-height: 50px;
   background-color: var(--zoom-dark);
-  height: 3vh;
-  width: 100vw;
 }
 
 .badge {
